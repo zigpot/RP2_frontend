@@ -7,7 +7,7 @@
         >
           <div class="sm:hidden xl:block mb-6 sm:mb-0">
             <a href="#">
-              <img :src="require('~/assets/img/logo/nefa.svg')" class="w-24 -mt-2" alt="Nefa Logo" />
+              <img src="@/assets/img/logo/nefa.svg" class="w-24 -mt-2" alt="Nefa Logo" />
             </a>
           </div>
           <ul class="space-y-4">

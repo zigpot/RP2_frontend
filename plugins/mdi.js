@@ -1,4 +1,4 @@
-import Vue from 'vue'
+import { defineNuxtPlugin } from '#app'
 import ChevronDownIcon from 'vue-material-design-icons/ChevronDown.vue'
 import ChevronUpIcon from 'vue-material-design-icons/ChevronUp.vue'
 import ChevronRightIcon from 'vue-material-design-icons/ChevronRight.vue'
@@ -23,6 +23,9 @@ const components = {
   CloseIcon,
 }
 
-Object.entries(components).forEach(([name, component]) => {
-  Vue.component(name, component)
+export default defineNuxtPlugin(nuxtApp => {
+  // Register components globally
+  Object.entries(components).forEach(([name, component]) => {
+    nuxtApp.vueApp.component(name, component)
+  })
 })

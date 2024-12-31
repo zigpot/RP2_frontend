@@ -25,7 +25,7 @@
               <tr v-for="data in datasets" :key="data.id" class="border-b border-gray-200">
                 <td class="py-4 whitespace-nowrap">
                   <div class="flex items-center space-x-2">
-                    <img :src="require(`~/assets/img/crypto-icon/${data.logo}`)" alt="" />
+                    <img :src="`~/assets/img/crypto-icon/${data.logo}`" alt="" />
                     <span>{{ data.name }}</span>
                   </div>
                 </td>

@@ -41,7 +41,7 @@
             <img
               data-aos="fade-up"
               data-aos-once="true"
-              :src="require('~/assets/img/hero-image.webp')"
+              src="@/assets/img/hero-image.webp"
               class="-mt-4"
               alt=""
             />
@@ -50,25 +50,25 @@
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          :src="require('~/assets/img/pattern/ellipse-1.png')"
+          src="@/assets/img/pattern/ellipse-1.png"
           class="hidden sm:block absolute bottom-12 xl:bottom-16 left-4 xl:left-0 w-6"
         />
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          :src="require('~/assets/img/pattern/ellipse-2.png')"
+          src="@/assets/img/pattern/ellipse-2.png"
           class="hidden sm:block absolute top-4 sm:top-10 right-64 sm:right-96 xl:right-[32rem] w-6"
         />
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          :src="require('~/assets/img/pattern/ellipse-3.png')"
+          src="@/assets/img/pattern/ellipse-3.png"
           class="hidden sm:block absolute bottom-56 right-24 w-6"
         />
         <img
           data-aos="fade-up"
           data-aos-delay="300"
-          :src="require('~/assets/img/pattern/star.png')"
+          src="@/assets/img/pattern/star.png"
           class="hidden sm:block absolute top-20 sm:top-28 right-16 lg:right-0 lg:left-[30rem] w-8"
         />
       </BaseSection>
@@ -158,7 +158,7 @@
       <BaseSection data-aos="fade-down">
         <div class="col-span-12 lg:col-span-7">
           <div class="w-full">
-            <img :src="require('~/assets/img/nefa-cc.webp')" class="w-[95%]" alt="" />
+            <img src="@/assets/img/nefa-cc.webp" class="w-[95%]" alt="" />
           </div>
         </div>
         <div class="col-span-12 lg:col-span-5 space-y-6 px-4 sm:px-6 mt-20">
@@ -224,7 +224,7 @@
       <div class="relative max-w-screen-xl px-8 mx-auto grid grid-cols-12 gap-x-6">
         <div data-aos="fade-right" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/industry-leading-security.webp')" class="w-full" alt="" />
+            <img src="@/assets/img/industry-leading-security.webp" class="w-full" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" class="col-span-12 lg:col-span-5 space-y-8 sm:space-y-6 mt-8 xl:px-8">
@@ -266,12 +266,12 @@
         >
           <LandingStep v-for="step in steps" :key="step.title" :step="step" />
           <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
+            src="@/assets/img/getting-started/arrow.png"
             class="hidden lg:inline-block absolute top-32 left-64 xl:left-[22rem] w-24 xl:w-[9.5rem]"
             alt=""
           />
           <img
-            :src="require('~/assets/img/getting-started/arrow.png')"
+            src="@/assets/img/getting-started/arrow.png"
             class="hidden lg:inline-block absolute top-32 right-64 xl:right-[22rem] w-24 xl:w-[9.5rem]"
             alt=""
           />
@@ -284,7 +284,7 @@
       <BaseSection>
         <div data-aos="fade-right" data-aos-delay="150" class="col-span-12 lg:col-span-6">
           <div class="w-full">
-            <img :src="require('~/assets/img/faq.webp')" class="w-full" alt="" />
+            <img src="@/assets/img/faq.webp" class="w-full" alt="" />
           </div>
         </div>
         <div data-aos="fade-left" data-aos-delay="150" class="col-span-12 lg:col-span-6 px-4 sm:px-6 mt-8">
@@ -300,7 +300,7 @@
 
     <div class="w-full my-10 flex justify-center">
       <a
-        v-smooth-scroll
+        v-scroll-to
         data-aos="flip-down"
         data-aos-delay="150"
         href="#navbar"

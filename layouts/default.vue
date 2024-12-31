@@ -7,7 +7,8 @@
       <BaseNavbar />
 
       <main class="text-neutral-800">
-        <Nuxt />
+        <!-- No need to import Nuxt, it should work automatically -->
+        <NuxtPage />
       </main>
 
       <BaseFooter />

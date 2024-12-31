@@ -16,7 +16,7 @@
         @click="toggleDropdown"
         @blur="toggleDropdown"
       >
-        <img :src="require(`~/assets/img/${exchangeSelected.img}`)" alt="" class="flex-shrink-0 h-6 w-6 rounded-full" />
+        <img :src="`@/assets/img/${exchangeSelected.img}`" alt="" class="flex-shrink-0 h-6 w-6 rounded-full" />
         <span class="ml-3 block truncate">{{ exchangeSelected.name }}</span>
         <ChevronDownIcon :size="20" />
       </button>
