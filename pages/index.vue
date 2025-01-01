@@ -278,6 +278,17 @@
         </div>
       </div>
     </section>
+    
+    <!-- Tax Calculator section -->
+    <section class="w-full my-24">
+      <BaseSection>
+        <div data-aos="fade-up" class="col-span-12">
+          <span class="text-base text-gradient font-semibold uppercase mb-4 sm:mb-2">New Feature</span>
+          <h2 class="text-3xl sm:text-4xl font-semibold mb-10 sm:mb-6">Calculate your crypto tax</h2>
+          <LandingEnhancedUpload />
+        </div>
+      </BaseSection>
+    </section>
 
     <!-- FAQ section -->
     <section class="w-full my-24">

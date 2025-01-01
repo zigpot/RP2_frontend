@@ -18,11 +18,17 @@ export default {
       },
     ],
   },
-  css: ['@/assets/css/main.css', 'aos/dist/aos.css'],
+  css: ['@/assets/css/main.css', 'aos/dist/aos.css',
+    'primevue/resources/themes/saga-blue/theme.css',
+    'primevue/resources/primevue.css',
+    'primeicons/primeicons.css',
+  ],
   plugins: ['~/plugins/smooth-scroll.js', '~/plugins/mdi.js'],
   components: true,
   buildModules: ['@nuxtjs/eslint-module', '@nuxt/postcss8'],
-  modules: [],
+  modules: [
+    'primevue/nuxt',
+  ],
   build: {
     postcss: {
       plugins: {
